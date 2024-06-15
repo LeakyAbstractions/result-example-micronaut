@@ -1,0 +1,9 @@
+micronaut.application.name = 'result-example-micronaut'
+
+[micronaut.router.static-resources.swagger]
+paths = 'classpath:META-INF/swagger'
+mapping = '/swagger/**'
+
+[micronaut.router.static-resources.swagger-ui]
+paths = 'classpath:META-INF/swagger/views/swagger-ui'
+mapping = '/swagger-ui/**'
