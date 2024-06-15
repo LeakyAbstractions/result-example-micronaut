@@ -28,6 +28,8 @@ dependencies {
 	implementation("com.leakyabstractions:result-lazy")
     compileOnly("io.micronaut.openapi:micronaut-openapi-annotations")
     runtimeOnly("ch.qos.logback:logback-classic")
+    testImplementation("com.leakyabstractions:result-assertj")
+    testImplementation("org.assertj:assertj-core")
 }
 
 
