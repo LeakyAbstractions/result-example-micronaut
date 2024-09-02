@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "result": {
+    "success": {
+      "id": 2,
+      "name": "Bar",
+      "status": "sold"
+    }
+  }
+}
