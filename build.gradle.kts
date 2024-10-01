@@ -22,7 +22,7 @@ dependencies {
     implementation("io.micronaut.validation:micronaut-validation")
     implementation("jakarta.annotation:jakarta.annotation-api")
     implementation("jakarta.validation:jakarta.validation-api")
-    implementation(platform("com.leakyabstractions:result-bom:1.0.0.0"))
+    implementation(platform("com.leakyabstractions:result-bom:1.0.1.0"))
     implementation("com.leakyabstractions:result")
     implementation("com.leakyabstractions:result-micronaut-serde")
     implementation("com.leakyabstractions:result-lazy")
