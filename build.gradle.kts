@@ -1,7 +1,7 @@
 plugins {
     id("com.github.johnrengelman.shadow") version "8.1.1"
-    id("io.micronaut.application") version "4.4.2"
-    id("io.micronaut.aot") version "4.4.2"
+    id("io.micronaut.application") version "4.4.4"
+    id("io.micronaut.aot") version "4.4.4"
 }
 
 version = "0.0.1-SNAPSHOT"
@@ -22,7 +22,7 @@ dependencies {
     implementation("io.micronaut.validation:micronaut-validation")
     implementation("jakarta.annotation:jakarta.annotation-api")
     implementation("jakarta.validation:jakarta.validation-api")
-    implementation(platform("com.leakyabstractions:result-bom:1.0.0.0"))
+    implementation(platform("com.leakyabstractions:result-bom:1.0.1.3"))
     implementation("com.leakyabstractions:result")
     implementation("com.leakyabstractions:result-micronaut-serde")
     implementation("com.leakyabstractions:result-lazy")
