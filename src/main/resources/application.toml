@@ -1,0 +1,33 @@
+micronaut.application.name = 'result-example-micronaut'
+
+[micronaut.router.static-resources.swagger]
+paths = 'classpath:META-INF/swagger'
+mapping = '/swagger/**'
+
+[micronaut.router.static-resources.swagger-ui]
+paths = 'classpath:META-INF/swagger/views/swagger-ui'
+mapping = '/swagger-ui/**'
+
+[pet-store]
+api-version = '1.0'
+enabled = true
+
+[[pet-store.pets]]
+id = 0
+name = 'Rocky'
+status = 'available'
+
+[[pet-store.pets]]
+id = 1
+name = 'Garfield'
+status = 'sold'
+
+[[pet-store.pets]]
+id = 2
+name = 'Rantanplan'
+status = 'pending'
+
+[pet-store.remote]
+loopback.url = 'http://localhost:${micronaut.server.port:8080}/pet/'
+github.url = 'https://dev.leakyabstractions.com/result-example-micronaut/src/test/resources/static'
+swagger.url = 'https://petstore.swagger.io/v2/pet/'
