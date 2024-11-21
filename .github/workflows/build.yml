@@ -57,3 +57,14 @@ jobs:
     # ================================
     - name: Build
       run: ./gradlew build
+
+    # ================================
+    # TEST REPORT
+    # ================================
+    - name: Publish Test Report
+      uses: mikepenz/action-junit-report@v5
+      if: success() || failure()
+      with:
+        report_paths: build/test-results/test/TEST-*.xml
+        detailed_summary: true
+        include_passed: true
