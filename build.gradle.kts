@@ -1,6 +1,6 @@
 plugins {
     id("io.micronaut.application") version "4.6.1"
-    id("com.gradleup.shadow") version "9.2.2"
+    id("com.gradleup.shadow") version "9.3.0"
     id("io.micronaut.aot") version "4.6.1"
 }
 
@@ -22,7 +22,7 @@ dependencies {
     implementation("io.micronaut.validation:micronaut-validation")
     implementation("jakarta.annotation:jakarta.annotation-api")
     implementation("jakarta.validation:jakarta.validation-api")
-    implementation(platform("com.leakyabstractions:result-bom:1.0.4.0"))
+    implementation(platform("com.leakyabstractions:result-bom:1.2.0.1"))
     implementation("com.leakyabstractions:result")
     implementation("com.leakyabstractions:result-micronaut-serde")
     implementation("com.leakyabstractions:result-lazy")
