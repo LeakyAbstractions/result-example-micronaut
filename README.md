@@ -108,7 +108,7 @@ See the License for the specific language governing permissions and limitations 
 [BADGE_BENCHMARK]:              https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-benchmark/badge.json&style=flat
 [BADGE_BUILD_STATUS]:           https://github.com/leakyabstractions/result-example-micronaut/workflows/Build/badge.svg
 [BADGE_GRADLE]:                 https://img.shields.io/badge/Gradle-1FAEC9?logo=Gradle&logoColor=white
-[BADGE_MICRONAUT]:              https://img.shields.io/badge/Micronaut-000?logo=Rocket&logoColor=white
+[BADGE_MICRONAUT]:              https://img.shields.io/badge/Micronaut-4-fff?logo=Rocket&logoColor=white&labelColor=000
 [BADGE_RESULT_ARTIFACTS]:       https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result/badge.json
 [BENCHMARK]:                    https://dev.leakyabstractions.com/result-benchmark/
 [BUILD_STATUS]:                 https://github.com/LeakyAbstractions/result-example-micronaut/actions?query=workflow%3ABuild
