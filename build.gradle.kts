@@ -1,7 +1,7 @@
 plugins {
     id("io.micronaut.application") version "4.6.2"
     id("com.gradleup.shadow") version "9.4.1"
-    id("io.micronaut.aot") version "4.6.2"
+    id("io.micronaut.aot") version "5.0.0"
 }
 
 version = "0.0.1-SNAPSHOT"
